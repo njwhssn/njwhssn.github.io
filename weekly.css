@@ -95,14 +95,28 @@ nav ul li a:active {
 section.one{
   height: 100vh;
   scroll-snap-align: start;
+  padding: 10px 10%;
 }
 
-section.two, .three, .four, .five, .six, .seven, .eight, .nine {
+section.two, .three, .four, .five, .seven, .eight, .nine {
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   scroll-snap-align: start;
+  padding: 10px 10%;
+}
+
+section.six {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  scroll-snap-align: start;
+  padding: 10px 10%;
+}
+.six h1 {
+  margin-top: 50px;
 }
 
 .monday {
@@ -135,6 +149,7 @@ section.two, .three, .four, .five, .six, .seven, .eight, .nine {
 }
 .six {
   background-color: #494d5f;
+  color: white;
 }
 .seven {
   background-color: #a28089;
@@ -170,6 +185,28 @@ a {
 .next {
   width: 50%;
 }
+
+.analysis-container {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(250px, 1fr));
+  grid-gap: 40px;
+  margin-top: 100px;
+}
+.analysis-container div {
+  background: #262626;
+  color: white;
+  padding: 40px;
+  font-size: 17px;
+  font-weight: 300;
+  border-radius: 10px;
+}
+.analysis-container div h2{
+  color: yellow;
+}
+.second-title {
+  margin-bottom: 20px;
+}
+
 
 .one .fa {
   display: none;

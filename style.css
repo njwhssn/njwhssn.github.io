@@ -225,6 +225,7 @@ nav ul li a:hover::after {
 }
 
 .ideology-sentence {
+  width: 80%;
   line-height: 35px;
   font-size: 25px;
   margin-bottom: 150px;
