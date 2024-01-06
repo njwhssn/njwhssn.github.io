@@ -18,29 +18,6 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 })
 
-
-// document.addEventListener("DOMContentLoaded", () => {
-//   const toggle = document.getElementById('toggleDark');
-//   const body = document.querySelector('body');
-
-//   if (toggle) {
-//     toggle.addEventListener('click', function() {
-//       this.classList.toggle('fa-moon');
-//       if (this.classList.contains('fa-sun')) {
-//         body.style.background = 'white';
-//         body.style.color = 'black';
-//         body.style.transition = '.5s';
-//       } else {
-//         body.style.background = 'black';
-//         body.style.color = 'white';
-//         body.style.transition = '.5s';
-//       }
-//     });
-//   } else {
-//     console.error("Element with ID 'toggleDark' not found in the DOM.");
-//   }
-// });
-
 function opentab(tabname) {
   for(tablink of tablinks) {
     tablink.classList.remove("active-link")
