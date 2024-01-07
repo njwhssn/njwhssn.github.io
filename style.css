@@ -364,6 +364,7 @@ nav .fa {
   }
 
   .about-col-1 {
+    font-size: 15px;
     margin-bottom: 30px;
   }
 
@@ -376,6 +377,20 @@ nav .fa {
     margin-right: 20px;
   }
   /* about end */
+
+  /* ideology start */
+  #ideology .sub-title {
+    margin-top: 50px;
+  }
+  
+  .ideology-sentence {
+    width: 100%;
+    line-height: 30px;
+    font-size: 16px;
+    margin-bottom: 100px;
+    margin-top: 20px;
+  }
+  /* ideology end */
 
   /* weekly start */
   .services-list {
