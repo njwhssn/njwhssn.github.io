@@ -1,31 +1,19 @@
 *{
   margin: 0;
   padding: 0;
-  /* font-family: 'Poppins', sans-serif; */
   font-family: 'Roboto', sans-serif;
   box-sizing: border-box;
 }
-
-
-/* body::-webkit-scrollbar {
-  width: 3px;
-}
-.vertical-scroll::-webkit-scrollbar {
-  width: 3px;
-} */
-
 
 ::-webkit-scrollbar {
   width: 3px;
 }
 
 ::-webkit-scrollbar-track {
-  /* background: hsl(120 75% 50% / 1); */
   background: none;
 }
 
 ::-webkit-scrollbar-thumb {
-  /* background: hsl(120 100% 20% / 1); */
   background: hsl(120 75% 50% / 1);
   border-radius: 100vw;
 }
@@ -63,7 +51,6 @@ body {
 #header {
   width: 100%;
   height: 100vh;
-  /* background-image: url(images/background.jpg); */
   background-color: var(--secondary-color);
   background-size: cover;
   background-position: center;
@@ -139,7 +126,6 @@ nav ul li a:hover::after {
   border-radius: 15px;
   margin-left: 400px;
   border: 3px solid yellow;
-  /* box-shadow: 1px 1px 4px yellow; */
 }
 /* Header End*/
 
