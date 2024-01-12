@@ -410,8 +410,9 @@ a.next-page {
 }
 
 .next-page section:hover{
-  box-shadow: 0 0 20px 0px rgb(238, 255, 0);
+  box-shadow: 0 0 20px 0px rgb(30, 255, 0);
   transform: translateY(-5px);
+  color: #00ff00;
 }
 
 .next-page .fas {
