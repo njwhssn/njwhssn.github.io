@@ -126,6 +126,26 @@ nav .fa {
 }
 /* header end */
 
+/* MONDAY */
+.day-monday {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.day-monday .information-col .header-days {
+  color: #ffff00;
+}
+
+.day-monday .holiday-word {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 22px;
+  padding: 10px;
+}
+
 /* day-tuesday start */
 .day-tuesday {
   width: 80%;

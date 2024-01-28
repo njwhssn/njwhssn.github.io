@@ -28,7 +28,7 @@ body {
 .header {
   min-height: 100vh;
   width: 100%;
-  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(../week3/images/backgroundweek3.jpg);
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(../week4/images/backgroundweek4.jpg);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -138,6 +138,36 @@ nav .fa {
   margin-left: 15px;
   margin-right: 15px;
 }
+
+.day-monday .col-3 {
+  flex-basis: 50%;
+  background: #385170;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  padding: 20px 30px;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+
+.day-monday .col-3:hover {
+  box-shadow: 0 0 20px 0px rgb(238, 255, 0);
+  transform: translateY(-5px);
+}
+
+.day-monday .col-3 .two-img-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.day-monday .col-3 .two-img-div img {
+  width: 50%;
+  border-radius: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
 /* day-monday end */
 
 /* day-tuesday start */
@@ -222,8 +252,8 @@ nav .fa {
   margin-right: 15px;
 }
 
-.day-wednesday .col-3 {
-  flex-basis: 70%;
+.day-wednesday .container-oneImg-information {
+  flex-basis: 40%;
   background: #385170;
   color: #fff;
   text-shadow: 1px 1px 1px #000;
@@ -234,23 +264,9 @@ nav .fa {
   transition: 0.5s;
 }
 
-.day-wednesday .col-3:hover {
+.day-wednesday .container-oneImg-information:hover {
   box-shadow: 0 0 20px 0px rgb(238, 255, 0);
   transform: translateY(-5px);
-}
-
-.day-wednesday .col-3 .two-img-div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.day-wednesday .two-img-div img {
-  width: 50%;
-  height: 100%;
-  border-radius: 10px;
-  margin-right: 10px;
-  margin-left: 10px;
 }
 /* day-wednesday end */
 
@@ -290,6 +306,18 @@ nav .fa {
   margin-bottom: 4%;
 }
 
+.day-thursday .information-col .header-days {
+  color: #ffff00;
+}
+
+.day-thursday .holiday-word {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 22px;
+  padding: 10px;
+}
+
 .information-col {
   flex-basis: 50%;
   background: #385170;
@@ -311,6 +339,8 @@ nav .fa {
   width: 100%;
   border-radius: 10px;
 }
+
+
 
 .information-titles {
   text-align: center;
@@ -335,7 +365,7 @@ nav .fa {
 }
 
 .day-friday .col {
-  flex-basis: 40%;
+  flex-basis: 50%;
   background: #385170;
   color: #fff;
   text-shadow: 1px 1px 1px #000;
@@ -590,6 +620,16 @@ a.next-page {
   .day-monday .information-two-image-col {
     margin-left: 0px;
     margin-right: 0px;
+  }
+
+  .day-monday .col-3 .two-img-div {
+    flex-direction: column;
+  }
+
+  .day-monday .col-3 .two-img-div img {
+    width: 100%;
+    margin-top: 3px;
+    margin-bottom: 3px;
   }
   /* day-monday end */
 
