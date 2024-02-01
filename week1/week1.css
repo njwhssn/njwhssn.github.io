@@ -134,6 +134,11 @@ nav .fa {
   padding-top: 100px;
 }
 
+.day-monday .information-col {
+  text-decoration: none;
+  cursor: pointer;
+}
+
 .day-monday .information-col .header-days {
   color: #ffff00;
 }
@@ -496,7 +501,7 @@ a.next-page {
   }
 
   .nav-links {
-    position: absolute;
+    position: fixed;
     background: #000000;
     height: 100vh;
     width: 200px;
@@ -522,6 +527,10 @@ a.next-page {
     margin: 10px;
     font-size: 22px;
     cursor: pointer;
+  }
+
+  .nav-links ul li:hover::after {
+    width: 0;
   }
 
   .text-box h1 {

@@ -278,20 +278,6 @@ nav .fa {
   padding-top: 200px;
 }
 
-.day-thursday .information-two-image-col {
-  flex-basis: 40%;
-  background: #385170;
-  color: #fff;
-  text-shadow: 1px 1px 1px #000;
-  border-radius: 10px;
-  margin-right: 5px;
-  margin-left: 5px;
-  margin-bottom: 5%;
-  padding: 20px 12px;
-  box-sizing: border-box;
-  transition: 0.5s;
-}
-
 .header-days {
   font-size: 50px;
   font-weight: 600;
@@ -304,6 +290,11 @@ nav .fa {
   line-height: 22px;
   padding: 10px;
   margin-bottom: 4%;
+}
+
+.day-thursday .information-col {
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .day-thursday .information-col .header-days {
@@ -579,7 +570,7 @@ a.next-page {
   }
 
   .nav-links {
-    position: absolute;
+    position: fixed;
     background: #000000;
     height: 100vh;
     width: 200px;
@@ -588,6 +579,10 @@ a.next-page {
     text-align: left;
     z-index: 2;
     transition: 1s;
+  }
+
+  .nav-links ul li:hover::after {
+    width: 0;
   }
 
   .nav-links ul {

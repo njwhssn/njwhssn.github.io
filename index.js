@@ -31,14 +31,14 @@ function opentab(tabname) {
   document.getElementById(tabname).classList.add("active-tab");
 }
 
-function openmenu() {
+function openMenu() {
   const sidemenu = document.getElementById("sidemenu");
   if(sidemenu) {
     sidemenu.style.right = "0";
   }
 }
 
-function closemenu() {
+function closeMenu() {
   const sidemenu = document.getElementById("sidemenu");
   if(sidemenu) {
     sidemenu.style.right = "-200px";
