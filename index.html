@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Najwa Internship</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="icon" type="image/x-icon" href="images/nlogo.png">
+  <script src="index.js"></script>
+</head>
+<body>
+
+  <!-- Header Start-->
+  <div id="header">
+    <div class="container">
+      <nav>
+        <h1 class="logo"><span class="red-color">N</span>ajwa</h1>
+        <div class="container-moon-menu">
+          <i class='fas fa-moon' id="toggleLight"></i>
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">Profile</a></li>
+            <li><a href="#ideology">Ideology</a></li>
+            <li><a href="#services">Weekly</a></li>
+            <i class="fa fa-times" onclick="closeMenu()"></i>
+          </ul>
+          <i class="fa fa-bars" onclick="openMenu()"></i>
+        </div>
+      </nav>
+      <div class="header-text">
+        <div class="chronicles">
+          <p>Intern Teacher</p>
+          <h1>The Chronicles of</h1>
+          <h1>Teacher "<span class="red-color">N</span>"</h1>
+        </div>
+        <div class="header-col">
+          <img src="./images/chronical.jpeg">
+          <div class="layer">
+            <h3><span class="yellow-color">SMK TAMAN MALURI</span><br><br>
+              42, Jalan Wirawati 6,<br>Maluri, 55100 Kuala Lumpur<br>Wilayah Persekutuan Kuala Lumpur</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Header End-->
+
+  <!-- About Start-->
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="images/user.jpeg">
+          <p>Teacher Nurul <span class="red-color">N</span>ajwa Bt Hussin</p>
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">My Profile</h1>
+          <p>Teacher <span class="red-color">N</span><br>
+            A very inspiring, versatile and top-tier teacher that willing to do 
+            anything to ensure the students have a better understanding in learning. 
+            She was born in December 2001 and currently is continuing her degree 
+            practicum journey. Her origin country is in Skudai,  Johor Bahru and there 
+            you go a simp of her graduating her Diploma journey.
+          </p>
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><h2 class="yellow-color">Communication</h2><p>Able to communicate in a good manner to 
+                society in accomplishing<br>task given which makes a good teamwork in 
+                discovering solutions. </p><br></li>
+              <li><h2 class="yellow-color">Management</h2><p>Expert in producing lesson plans and 
+                clasroom management in portraying<br>prime leadership skills 
+                in teaching. </p><br></li>
+              <li><h2 class="yellow-color">Critical Thinking</h2><p>Diligently applying critical thinking
+                in adapting teaching materials<br>and preparing the best teaching aids. </p><br></li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li><h2 class="yellow-color">Substitute teacher</h2><p>December 2021 - March 2021</p><br></li>
+              <li><h2 class="yellow-color">Practicum Teacher (Diploma Studies)</h2><p>August 2021 - November 2021</p><br></li>
+              <li><h2 class="yellow-color">Part-time Tutor</h2><p>March 2022 - Present</p><br></li>
+              <li><h2 class="yellow-color">Practicum Teacher (Degree Studies)</h2><p>January 2024 - May 2024</p><br></li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="education">
+            <ul>
+              <li><h2 class="yellow-color">Diploma</h2>
+                <p>Diploma in Teaching English As A Second Language</p>
+                <p>CGPA: 3.82</p>
+                <p>May 2019 - November 2021</p><br></li>
+              <li><h2 class="yellow-color">Degree</h2>
+                <p>Bachelor of Education (Honours) In Teaching English As A Second Language</p>
+                <p>CGPA: 3.80</p>
+                <p>April 2022 - August 2024</p><br></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- About End-->
+
+  <!-- ideology start-->
+  <div id="ideology">
+    <div class="container">
+      <h1 class="sub-title">Ideology of Education</h1>
+      <p class="ideology-sentence">My pedagogical approach centres on fostering a supportive and 
+        welcoming learning atmosphere in the classroom where each student 
+        feels appreciated and equipped to learn. Since I think that learning is a 
+        lifetime endeavour, I'm dedicated to instilling in my students a love of 
+        learning along with critical thinking, creativity, and empathy. </p>
+    </div>
+  </div>
+  <!-- ideology End-->
+
+  <!-- weekly Start-->
+  <div id="services">
+    <div class="container">
+      <h1 class="sub-title">Weekly</h1>
+      <div class="services-list">
+        <a href="week1/week1.html" target="_blank">
+          <h2>Week One</h2>
+          <p>Beginning of my intership journey</p>
+        </a>
+        <a href="week2/week2.html" target="_blank">
+          <h2>Week Two</h2>
+          <p>Keep on burgeoning...</p>
+        </a>
+        <a href="week3/week3.html" target="_blank">
+          <h2>Week Three</h2>
+          <p>Accelerating my sense of competence</p>
+        </a>
+        <a href="week4/week4.html" target="_blank">
+          <h2>Week Four</h2>
+          <p>A single more week, a single more set of bumps</p>
+        </a>
+        <a href="week5/week5.html" target="_blank">
+          <h2>Week Five</h2>
+          <p>N/A</p>
+        </a>
+        <a href="week6/week6.html" target="_blank">
+          <h2>Week Six</h2>
+          <p>N/A</p>
+        </a>
+        <a href="#" target="_blank">
+          <h2>Week Seven</h2>
+          <p>Hello there! I'm an enthusiastic individual with an insatiable curiosity for the world. As a lifelong learner, 
+          I thrive on exploring diverse ideas and perspectives.</p>
+        </a>
+        <a href="#" target="_blank">
+          <h2>Week Eight</h2>
+          <p>Hello there! I'm an enthusiastic individual with an insatiable curiosity for the world. As a lifelong learner, 
+          I thrive on exploring diverse ideas and perspectives.</p>
+        </a>
+        <a href="#" target="_blank">
+          <h2>Week Nine</h2>
+          <p>Hello there! I'm an enthusiastic individual with an insatiable curiosity for the world. As a lifelong learner, 
+          I thrive on exploring diverse ideas and perspectives.</p>
+        </a>
+        <a href="#" target="_blank">
+          <h2>Week Ten</h2>
+          <p>Hello there! I'm an enthusiastic individual with an insatiable curiosity for the world. As a lifelong learner, 
+          I thrive on exploring diverse ideas and perspectives.</p>
+        </a>
+        <a href="#" target="_blank">
+          <h2>Week Eleven</h2>
+          <p>Hello there! I'm an enthusiastic individual with an insatiable curiosity for the world. As a lifelong learner, 
+          I thrive on exploring diverse ideas and perspectives.</p>
+        </a>
+        <a href="#" target="_blank">
+          <h2>Week Twelve</h2>
+          <p>Hello there! I'm an enthusiastic individual with an insatiable curiosity for the world. As a lifelong learner, 
+          I thrive on exploring diverse ideas and perspectives.</p>
+        </a>
+        <a href="#" target="_blank">
+          <h2>Week Thirteen</h2>
+          <p>Hello there! I'm an enthusiastic individual with an insatiable curiosity for the world. As a lifelong learner, 
+          I thrive on exploring diverse ideas and perspectives.</p>
+        </a>
+        <a href="#" target="_blank">
+          <h2>Week Fourteen</h2>
+          <p>Hello there! I'm an enthusiastic individual with an insatiable curiosity for the world. As a lifelong learner, 
+          I thrive on exploring diverse ideas and perspectives.</p>
+        </a>
+        <a href="#" target="_blank">
+          <h2>Week Fifteen</h2>
+          <p>Hello there! I'm an enthusiastic individual with an insatiable curiosity for the world. As a lifelong learner, 
+          I thrive on exploring diverse ideas and perspectives.</p>
+        </a>
+        <a href="#" target="_blank">
+          <h2>Week Sixteen</h2>
+          <p>Hello there! I'm an enthusiastic individual with an insatiable curiosity for the world. As a lifelong learner, 
+          I thrive on exploring diverse ideas and perspectives.</p>
+        </a>
+        <a href="#" target="_blank">
+          <h2>Week Seventeen</h2>
+          <p>Hello there! I'm an enthusiastic individual with an insatiable curiosity for the world. As a lifelong learner, 
+          I thrive on exploring diverse ideas and perspectives.</p>
+        </a>
+        <a href="#" target="_blank">
+          <h2>Week Eighteen</h2>
+          <p>Hello there! I'm an enthusiastic individual with an insatiable curiosity for the world. As a lifelong learner, 
+          I thrive on exploring diverse ideas and perspectives.</p>
+        </a>
+        <a href="#" target="_blank">
+          <h2>Week Nighteen</h2>
+          <p>Hello there! I'm an enthusiastic individual with an insatiable curiosity for the world. As a lifelong learner, 
+          I thrive on exploring diverse ideas and perspectives.</p>
+        </a>
+        <a href="#" target="_blank">
+          <h2>Week Twenty</h2>
+          <p>Hello there! I'm an enthusiastic individual with an insatiable curiosity for the world. As a lifelong learner, 
+          I thrive on exploring diverse ideas and perspectives.</p>
+        </a>
+      </div>
+    </div>
+  </div>
+  <!-- weekly End-->
+
+  <!-- Copyright Start-->
+  <div class="copyright">
+    <p>© 2024 Najwa Hussin <i class='fas fa-chess-queen'></i></p>
+  </div>
+  <!-- Copyright End-->
+  <a href="#" class="to-top">
+    <i class="fa fa-chevron-circle-up"></i>
+  </a>
+
+  <script src="https://app.embed.im/snow.js" defer></script>
+</body>
+</html>
